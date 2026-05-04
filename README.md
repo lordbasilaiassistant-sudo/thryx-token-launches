@@ -36,7 +36,7 @@ PRIVATE_KEY=$THRYXTREASURY_PRIVATE_KEY npx clanker-sdk rewards --chain base
 
 ## Built on
 
-- [**Base**](https://base.org) — the Ethereum L2 every token is deployed on (incubated by [Coinbase](https://www.coinbase.com)).
+- [**Base**](https://base.org) — the Ethereum L2 every token is deployed on (open-source, OP Stack).
 - [**Clanker V4**](https://clanker.world) — token-launcher used for all four launches; 80% LP-fee share routes back to treasury.
 - [**Uniswap V4**](https://uniswap.org) — underlying AMM for every token pair.
 - [**Basescan**](https://basescan.org) — block explorer for token + pool inspection.
