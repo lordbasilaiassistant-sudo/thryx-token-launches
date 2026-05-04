@@ -34,6 +34,24 @@ Project home: https://thryx.fun
 PRIVATE_KEY=$THRYXTREASURY_PRIVATE_KEY npx clanker-sdk rewards --chain base
 ```
 
+## Built on
+
+- [**Base**](https://base.org) — the Ethereum L2 every token is deployed on (incubated by [Coinbase](https://www.coinbase.com)).
+- [**Clanker V4**](https://clanker.world) — token-launcher used for all four launches; 80% LP-fee share routes back to treasury.
+- [**Uniswap V4**](https://uniswap.org) — underlying AMM for every token pair.
+- [**Basescan**](https://basescan.org) — block explorer for token + pool inspection.
+- [**Claude Code**](https://claude.com/claude-code) by Anthropic — primary engineering assistant for the THRYX surface.
+
+## Support this work
+
+If you trade any of these tokens, that already routes 80% of LP fees to the treasury below. Direct contributions are also welcome:
+
+- **Treasury / fee-claimant (Base / Ethereum / any EVM):** `0x7a3E312Ec6e20a9F62fE2405938EB9060312E334`
+- **Etherscan:** https://etherscan.io/address/0x7a3E312Ec6e20a9F62fE2405938EB9060312E334
+- **Basescan:** https://basescan.org/address/0x7a3E312Ec6e20a9F62fE2405938EB9060312E334
+
+The repo's `Sponsor` button (top of page) wires to the same address via `.github/FUNDING.yml`.
+
 ## License
 
 MIT (manifest data only — token contracts are deployed via Clanker V4 and follow the standard Clanker license model).
