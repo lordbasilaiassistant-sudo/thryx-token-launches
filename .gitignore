@@ -1,0 +1,12 @@
+# Node
+node_modules/
+
+# Secrets — never commit
+.env
+.env.*
+!.env.example
+*.key
+secrets/
+
+# Claude Code local config
+.claude/

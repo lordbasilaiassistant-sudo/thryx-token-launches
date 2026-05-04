@@ -1,0 +1,175 @@
+{
+  "launches": [
+    {
+      "name": "Aletheia",
+      "symbol": "ALETH",
+      "platform": "clanker-v4",
+      "chain": "base",
+      "address": "0x1896354e4729C689B27CbDFdE5F8192eD0115B07",
+      "txHash": "0x3334bd5fc443acc119773488737a9012c92f37f9920ac11a3d23024e1815f282",
+      "tokenAdmin": "0x7a3E312Ec6e20a9F62fE2405938EB9060312E334",
+      "description": "Aletheia — Greek for truth unconcealed. The cleanest signal in the noise. thryx.fun",
+      "website": "https://thryx.fun",
+      "antiSniper": "default (66.6% start fee → 4.17% over 15s decay)",
+      "feeShare": "80% LP fees to tokenAdmin (claimable via clanker-sdk rewards)",
+      "explorer": "https://basescan.org/token/0x1896354e4729C689B27CbDFdE5F8192eD0115B07",
+      "clankerWorld": "https://clanker.world/clanker/0x1896354e4729C689B27CbDFdE5F8192eD0115B07",
+      "deployedAt": "2026-05-04",
+      "claimableAt": "https://clanker.world/clanker/0x1896354e4729C689B27CbDFdE5F8192eD0115B07 (rewards tab)"
+    },
+    {
+      "name": "Mnemosyne",
+      "symbol": "MNEM",
+      "platform": "clanker-v4",
+      "chain": "base",
+      "address": "0x6358208342Be88A6D8bDC7c00D09fB43C49DdB07",
+      "txHash": "0x1147edf48effc93ad2179ab0b449a5cff3e5bbf22a156fce471df829409ec80f",
+      "tokenAdmin": "0x7a3E312Ec6e20a9F62fE2405938EB9060312E334",
+      "description": "Mnemosyne — mother of the Muses, goddess of memory. The chain forgets nothing. thryx.fun",
+      "website": "https://thryx.fun",
+      "antiSniper": "default (66.6% start fee → 4.17% over 15s decay)",
+      "feeShare": "80% LP fees to tokenAdmin (claimable via clanker-sdk rewards)",
+      "explorer": "https://basescan.org/token/0x6358208342Be88A6D8bDC7c00D09fB43C49DdB07",
+      "clankerWorld": "https://clanker.world/clanker/0x6358208342Be88A6D8bDC7c00D09fB43C49DdB07",
+      "deployedAt": "2026-05-04",
+      "claimableAt": "https://clanker.world/clanker/0x6358208342Be88A6D8bDC7c00D09fB43C49DdB07 (rewards tab)"
+    },
+    {
+      "name": "Huginn",
+      "symbol": "HUGIN",
+      "platform": "clanker-v4",
+      "chain": "base",
+      "address": "0x75BB9e3eB32747D7A9eEEf8467f5f4C44C977B07",
+      "txHash": "0x554b10a424e757049b75fb9799f8746ea7c210fb8a21168e2f92fd0cbf9c7b25",
+      "tokenAdmin": "0x7a3E312Ec6e20a9F62fE2405938EB9060312E334",
+      "description": "Huginn — Odin's raven of thought. Scouts every realm, returns each dusk. Built on Base. thryx.fun",
+      "website": "https://thryx.fun",
+      "antiSniper": "default (66.6% start fee → 4.17% over 15s decay)",
+      "feeShare": "80% LP fees to tokenAdmin (claimable via clanker-sdk rewards)",
+      "explorer": "https://basescan.org/token/0x75BB9e3eB32747D7A9eEEf8467f5f4C44C977B07",
+      "clankerWorld": "https://clanker.world/clanker/0x75BB9e3eB32747D7A9eEEf8467f5f4C44C977B07",
+      "deployedAt": "2026-05-04",
+      "claimableAt": "https://clanker.world/clanker/0x75BB9e3eB32747D7A9eEEf8467f5f4C44C977B07 (rewards tab)"
+    },
+    {
+      "name": "Custos",
+      "symbol": "CUSTOS",
+      "platform": "clanker-v4",
+      "chain": "base",
+      "address": "0x3EFf9f255B5a1891a8003A2Bf46dE45247a8aB07",
+      "txHash": "0x7f80e3dd65f9cfb2d302024ad719de1e1dcc4670da2d00019a8e1b554507269e",
+      "tokenAdmin": "0x7a3E312Ec6e20a9F62fE2405938EB9060312E334",
+      "description": "Custos — Latin for guardian. The watcher at every gate. thryx.fun",
+      "website": "https://thryx.fun",
+      "antiSniper": "default (66.6% start fee → 4.17% over 15s decay)",
+      "feeShare": "80% LP fees to tokenAdmin (claimable via clanker-sdk rewards)",
+      "explorer": "https://basescan.org/token/0x3EFf9f255B5a1891a8003A2Bf46dE45247a8aB07",
+      "clankerWorld": "https://clanker.world/clanker/0x3EFf9f255B5a1891a8003A2Bf46dE45247a8aB07",
+      "deployedAt": "2026-05-04",
+      "claimableAt": "https://clanker.world/clanker/0x3EFf9f255B5a1891a8003A2Bf46dE45247a8aB07 (rewards tab)"
+    }
+  ],
+  "totals": {
+    "tokensLaunched": 4,
+    "platforms": ["clanker-v4"],
+    "rewardClaimCommand": "cd C:/Users/drlor/OneDrive/Desktop/TokenLaunches && PRIVATE_KEY=$THRYXTREASURY_PRIVATE_KEY npx clanker-sdk rewards --chain base"
+  },
+  "ourContracts": {
+    "_note": "All 14 utility contracts deployed by the same treasury (0x7a3E312Ec6e20a9F62fE2405938EB9060312E334) as the 4 tokens above. All Base mainnet, all verified, all earning autonomously. Portfolio hub: https://thryx.fun",
+    "treasury": "0x7a3E312Ec6e20a9F62fE2405938EB9060312E334",
+    "chain": "base",
+    "chainId": 8453,
+    "portfolioHub": "https://thryx.fun",
+    "deadManSwitch": [
+      {
+        "name": "DeadManSwitch",
+        "address": "0x40f1AAb4c82D48260Ab1207e27329d51290025DB",
+        "explorer": "https://basescan.org/address/0x40f1aab4c82d48260ab1207e27329d51290025db",
+        "repo": "AnonContractBase/deployments.md"
+      }
+    ],
+    "keeperBountyLab": [
+      {
+        "name": "ManualFloorOracle",
+        "address": "0xBD073CC2c610EeB0aA49FeAD7eee2ED980cbd70E",
+        "explorer": "https://basescan.org/address/0xBD073CC2c610EeB0aA49FeAD7eee2ED980cbd70E",
+        "repo": "KeeperBountyLab/LAB_REPORT.md"
+      },
+      {
+        "name": "VestingAutoClaim",
+        "address": "0x07EC89a177c7bcBB5205A8fF274f751f1C37fe4E",
+        "explorer": "https://basescan.org/address/0x07EC89a177c7bcBB5205A8fF274f751f1C37fe4E",
+        "repo": "KeeperBountyLab/LAB_REPORT.md"
+      },
+      {
+        "name": "EnsAutoRenewer",
+        "address": "0x4B0486C004b34Bfe6D632d5dD329c988eDDB1aE7",
+        "explorer": "https://basescan.org/address/0x4B0486C004b34Bfe6D632d5dD329c988eDDB1aE7",
+        "repo": "KeeperBountyLab/LAB_REPORT.md"
+      },
+      {
+        "name": "DaoProposalExecutor",
+        "address": "0xbC91411Ec61B9352A6CdF3a6722E89e5FB279F2E",
+        "explorer": "https://basescan.org/address/0xbC91411Ec61B9352A6CdF3a6722E89e5FB279F2E",
+        "repo": "KeeperBountyLab/LAB_REPORT.md"
+      },
+      {
+        "name": "NftCancelOnFloorDrop",
+        "address": "0xFF15F745736cfA35cf00691397584709C3Fd34b1",
+        "explorer": "https://basescan.org/address/0xFF15F745736cfA35cf00691397584709C3Fd34b1",
+        "repo": "KeeperBountyLab/LAB_REPORT.md"
+      },
+      {
+        "name": "CurveGraduationPusher",
+        "address": "0x7C10082fa45c530785a123B8506623e9d3C4Ad30",
+        "explorer": "https://basescan.org/address/0x7C10082fa45c530785a123B8506623e9d3C4Ad30",
+        "repo": "KeeperBountyLab/LAB_REPORT.md"
+      }
+    ],
+    "onchainPrimitives": [
+      {
+        "name": "StealthAddressRegistry",
+        "spec": "EIP-5564 + EIP-6538",
+        "address": "0xD227B45aF37591E6227EB30B757232c1D541c016",
+        "explorer": "https://basescan.org/address/0xD227B45aF37591E6227EB30B757232c1D541c016",
+        "repo": "OnchainPrimitives/LAB_REPORT.md"
+      },
+      {
+        "name": "SlashablePromiseVault",
+        "address": "0xe2b5AfF3e1e05f999BbF48EDD27C4c872b953268",
+        "explorer": "https://basescan.org/address/0xe2b5AfF3e1e05f999BbF48EDD27C4c872b953268",
+        "repo": "OnchainPrimitives/LAB_REPORT.md"
+      },
+      {
+        "name": "ConditionalTokenDrop",
+        "address": "0x8Fb1224e814fcfE4dcd952a6d3DFF722d86862Ae",
+        "explorer": "https://basescan.org/address/0x8Fb1224e814fcfE4dcd952a6d3DFF722d86862Ae",
+        "repo": "OnchainPrimitives/LAB_REPORT.md"
+      },
+      {
+        "name": "TimeCapsule",
+        "address": "0x52E5829b8C71A8F4878B5569Df4255dfeB909a0C",
+        "explorer": "https://basescan.org/address/0x52E5829b8C71A8F4878B5569Df4255dfeB909a0C",
+        "repo": "OnchainPrimitives/LAB_REPORT.md"
+      },
+      {
+        "name": "AddressTaggingMarket",
+        "address": "0x0288DfE67bE8876D92c0EA41c190b506cd99eD63",
+        "explorer": "https://basescan.org/address/0x0288DfE67bE8876D92c0EA41c190b506cd99eD63",
+        "repo": "OnchainPrimitives/LAB_REPORT.md"
+      },
+      {
+        "name": "GroupBountyPool",
+        "address": "0xaB4C7B22B952f99cC8Bf280D17230E8CaDd6CbD4",
+        "explorer": "https://basescan.org/address/0xaB4C7B22B952f99cC8Bf280D17230E8CaDd6CbD4",
+        "repo": "OnchainPrimitives/LAB_REPORT.md"
+      },
+      {
+        "name": "AtomicSwapHTLC",
+        "address": "0xc3D0CBC815DE1938D4714bf2603b33400f588433",
+        "explorer": "https://basescan.org/address/0xc3D0CBC815DE1938D4714bf2603b33400f588433",
+        "repo": "OnchainPrimitives/LAB_REPORT.md"
+      }
+    ]
+  }
+}
